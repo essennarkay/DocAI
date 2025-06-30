@@ -14,3 +14,11 @@ function calculateAfterDiscountPrice(basePrice, discountRate, taxRate) {
 // Example usage:
 const price = calculateAfterDiscountPrice(1000, 0.1, 0.18); // Expected: 1062.00
 console.log(`Final price: ₹${price}`);
+
+
+
+
+function sayHelloRohith(){
+  console.log("hello Rohith");
+  return true;
+}
