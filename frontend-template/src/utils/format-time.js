@@ -14,7 +14,7 @@ export function fDateTime(date, newFormat) {
   return date ? format(new Date(date), fm) : '';
 }
 
-export function fTimestamp(date) {
+export function getTimeStamp(date) {
   return date ? getTime(new Date(date)) : '';
 }
 
